@@ -1,0 +1,353 @@
+﻿using System;
+
+namespace PoliceCodes
+{
+	// Token: 0x02000004 RID: 4
+	public enum VK
+	{
+		// Token: 0x04000025 RID: 37
+		LBUTTON = 1,
+		// Token: 0x04000026 RID: 38
+		RBUTTON,
+		// Token: 0x04000027 RID: 39
+		CANCEL,
+		// Token: 0x04000028 RID: 40
+		MBUTTON,
+		// Token: 0x04000029 RID: 41
+		XBUTTON1,
+		// Token: 0x0400002A RID: 42
+		XBUTTON2,
+		// Token: 0x0400002B RID: 43
+		BACK = 8,
+		// Token: 0x0400002C RID: 44
+		TAB,
+		// Token: 0x0400002D RID: 45
+		CLEAR = 12,
+		// Token: 0x0400002E RID: 46
+		RETURN,
+		// Token: 0x0400002F RID: 47
+		SHIFT = 16,
+		// Token: 0x04000030 RID: 48
+		CONTROL,
+		// Token: 0x04000031 RID: 49
+		MENU,
+		// Token: 0x04000032 RID: 50
+		PAUSE,
+		// Token: 0x04000033 RID: 51
+		CAPITAL,
+		// Token: 0x04000034 RID: 52
+		KANA,
+		// Token: 0x04000035 RID: 53
+		HANGUL = 21,
+		// Token: 0x04000036 RID: 54
+		JUNJA = 23,
+		// Token: 0x04000037 RID: 55
+		FINAL,
+		// Token: 0x04000038 RID: 56
+		HANJA,
+		// Token: 0x04000039 RID: 57
+		KANJI = 25,
+		// Token: 0x0400003A RID: 58
+		ESCAPE = 27,
+		// Token: 0x0400003B RID: 59
+		CONVERT,
+		// Token: 0x0400003C RID: 60
+		NONCONVERT,
+		// Token: 0x0400003D RID: 61
+		ACCEPT,
+		// Token: 0x0400003E RID: 62
+		MODECHANGE,
+		// Token: 0x0400003F RID: 63
+		SPACE,
+		// Token: 0x04000040 RID: 64
+		PRIOR,
+		// Token: 0x04000041 RID: 65
+		NEXT,
+		// Token: 0x04000042 RID: 66
+		END,
+		// Token: 0x04000043 RID: 67
+		HOME,
+		// Token: 0x04000044 RID: 68
+		LEFT,
+		// Token: 0x04000045 RID: 69
+		UP,
+		// Token: 0x04000046 RID: 70
+		RIGHT,
+		// Token: 0x04000047 RID: 71
+		DOWN,
+		// Token: 0x04000048 RID: 72
+		SELECT,
+		// Token: 0x04000049 RID: 73
+		PRINT,
+		// Token: 0x0400004A RID: 74
+		EXECUTE,
+		// Token: 0x0400004B RID: 75
+		SNAPSHOT,
+		// Token: 0x0400004C RID: 76
+		INSERT,
+		// Token: 0x0400004D RID: 77
+		DELETE,
+		// Token: 0x0400004E RID: 78
+		HELP,
+		// Token: 0x0400004F RID: 79
+		KEY_0,
+		// Token: 0x04000050 RID: 80
+		KEY_1,
+		// Token: 0x04000051 RID: 81
+		KEY_2,
+		// Token: 0x04000052 RID: 82
+		KEY_3,
+		// Token: 0x04000053 RID: 83
+		KEY_4,
+		// Token: 0x04000054 RID: 84
+		KEY_5,
+		// Token: 0x04000055 RID: 85
+		KEY_6,
+		// Token: 0x04000056 RID: 86
+		KEY_7,
+		// Token: 0x04000057 RID: 87
+		KEY_8,
+		// Token: 0x04000058 RID: 88
+		KEY_9,
+		// Token: 0x04000059 RID: 89
+		KEY_A = 65,
+		// Token: 0x0400005A RID: 90
+		KEY_B,
+		// Token: 0x0400005B RID: 91
+		KEY_C,
+		// Token: 0x0400005C RID: 92
+		KEY_D,
+		// Token: 0x0400005D RID: 93
+		KEY_E,
+		// Token: 0x0400005E RID: 94
+		KEY_F,
+		// Token: 0x0400005F RID: 95
+		KEY_G,
+		// Token: 0x04000060 RID: 96
+		KEY_H,
+		// Token: 0x04000061 RID: 97
+		KEY_I,
+		// Token: 0x04000062 RID: 98
+		KEY_J,
+		// Token: 0x04000063 RID: 99
+		KEY_K,
+		// Token: 0x04000064 RID: 100
+		KEY_L,
+		// Token: 0x04000065 RID: 101
+		KEY_M,
+		// Token: 0x04000066 RID: 102
+		KEY_N,
+		// Token: 0x04000067 RID: 103
+		KEY_O,
+		// Token: 0x04000068 RID: 104
+		KEY_P,
+		// Token: 0x04000069 RID: 105
+		KEY_Q,
+		// Token: 0x0400006A RID: 106
+		KEY_R,
+		// Token: 0x0400006B RID: 107
+		KEY_S,
+		// Token: 0x0400006C RID: 108
+		KEY_T,
+		// Token: 0x0400006D RID: 109
+		KEY_U,
+		// Token: 0x0400006E RID: 110
+		KEY_V,
+		// Token: 0x0400006F RID: 111
+		KEY_W,
+		// Token: 0x04000070 RID: 112
+		KEY_X,
+		// Token: 0x04000071 RID: 113
+		KEY_Y,
+		// Token: 0x04000072 RID: 114
+		KEY_Z,
+		// Token: 0x04000073 RID: 115
+		LWIN,
+		// Token: 0x04000074 RID: 116
+		RWIN,
+		// Token: 0x04000075 RID: 117
+		APPS,
+		// Token: 0x04000076 RID: 118
+		SLEEP = 95,
+		// Token: 0x04000077 RID: 119
+		NUMPAD0,
+		// Token: 0x04000078 RID: 120
+		NUMPAD1,
+		// Token: 0x04000079 RID: 121
+		NUMPAD2,
+		// Token: 0x0400007A RID: 122
+		NUMPAD3,
+		// Token: 0x0400007B RID: 123
+		NUMPAD4,
+		// Token: 0x0400007C RID: 124
+		NUMPAD5,
+		// Token: 0x0400007D RID: 125
+		NUMPAD6,
+		// Token: 0x0400007E RID: 126
+		NUMPAD7,
+		// Token: 0x0400007F RID: 127
+		NUMPAD8,
+		// Token: 0x04000080 RID: 128
+		NUMPAD9,
+		// Token: 0x04000081 RID: 129
+		MULTIPLY,
+		// Token: 0x04000082 RID: 130
+		ADD,
+		// Token: 0x04000083 RID: 131
+		SEPARATOR,
+		// Token: 0x04000084 RID: 132
+		SUBTRACT,
+		// Token: 0x04000085 RID: 133
+		DECIMAL,
+		// Token: 0x04000086 RID: 134
+		DIVIDE,
+		// Token: 0x04000087 RID: 135
+		F1,
+		// Token: 0x04000088 RID: 136
+		F2,
+		// Token: 0x04000089 RID: 137
+		F3,
+		// Token: 0x0400008A RID: 138
+		F4,
+		// Token: 0x0400008B RID: 139
+		F5,
+		// Token: 0x0400008C RID: 140
+		F6,
+		// Token: 0x0400008D RID: 141
+		F7,
+		// Token: 0x0400008E RID: 142
+		F8,
+		// Token: 0x0400008F RID: 143
+		F9,
+		// Token: 0x04000090 RID: 144
+		F10,
+		// Token: 0x04000091 RID: 145
+		F11,
+		// Token: 0x04000092 RID: 146
+		F12,
+		// Token: 0x04000093 RID: 147
+		F13,
+		// Token: 0x04000094 RID: 148
+		F14,
+		// Token: 0x04000095 RID: 149
+		F15,
+		// Token: 0x04000096 RID: 150
+		F16,
+		// Token: 0x04000097 RID: 151
+		F17,
+		// Token: 0x04000098 RID: 152
+		F18,
+		// Token: 0x04000099 RID: 153
+		F19,
+		// Token: 0x0400009A RID: 154
+		F20,
+		// Token: 0x0400009B RID: 155
+		F21,
+		// Token: 0x0400009C RID: 156
+		F22,
+		// Token: 0x0400009D RID: 157
+		F23,
+		// Token: 0x0400009E RID: 158
+		F24,
+		// Token: 0x0400009F RID: 159
+		NUMLOCK = 144,
+		// Token: 0x040000A0 RID: 160
+		SCROLL,
+		// Token: 0x040000A1 RID: 161
+		LSHIFT = 160,
+		// Token: 0x040000A2 RID: 162
+		RSHIFT,
+		// Token: 0x040000A3 RID: 163
+		LCONTROL,
+		// Token: 0x040000A4 RID: 164
+		RCONTROL,
+		// Token: 0x040000A5 RID: 165
+		LMENU,
+		// Token: 0x040000A6 RID: 166
+		RMENU,
+		// Token: 0x040000A7 RID: 167
+		BROWSER_BACK,
+		// Token: 0x040000A8 RID: 168
+		BROWSER_FORWARD,
+		// Token: 0x040000A9 RID: 169
+		BROWSER_REFRESH,
+		// Token: 0x040000AA RID: 170
+		BROWSER_STOP,
+		// Token: 0x040000AB RID: 171
+		BROWSER_SEARCH,
+		// Token: 0x040000AC RID: 172
+		BROWSER_FAVORITES,
+		// Token: 0x040000AD RID: 173
+		BROWSER_HOME,
+		// Token: 0x040000AE RID: 174
+		VOLUME_MUTE,
+		// Token: 0x040000AF RID: 175
+		VOLUME_DOWN,
+		// Token: 0x040000B0 RID: 176
+		VOLUME_UP,
+		// Token: 0x040000B1 RID: 177
+		MEDIA_NEXT_TRACK,
+		// Token: 0x040000B2 RID: 178
+		MEDIA_PREV_TRACK,
+		// Token: 0x040000B3 RID: 179
+		MEDIA_STOP,
+		// Token: 0x040000B4 RID: 180
+		MEDIA_PLAY_PAUSE,
+		// Token: 0x040000B5 RID: 181
+		LAUNCH_MAIL,
+		// Token: 0x040000B6 RID: 182
+		LAUNCH_MEDIA_SELECT,
+		// Token: 0x040000B7 RID: 183
+		LAUNCH_APP1,
+		// Token: 0x040000B8 RID: 184
+		LAUNCH_APP2,
+		// Token: 0x040000B9 RID: 185
+		OEM_1 = 186,
+		// Token: 0x040000BA RID: 186
+		OEM_PLUS,
+		// Token: 0x040000BB RID: 187
+		OEM_COMMA,
+		// Token: 0x040000BC RID: 188
+		OEM_MINUS,
+		// Token: 0x040000BD RID: 189
+		OEM_PERIOD,
+		// Token: 0x040000BE RID: 190
+		OEM_2,
+		// Token: 0x040000BF RID: 191
+		OEM_3,
+		// Token: 0x040000C0 RID: 192
+		OEM_4 = 219,
+		// Token: 0x040000C1 RID: 193
+		OEM_5,
+		// Token: 0x040000C2 RID: 194
+		OEM_6,
+		// Token: 0x040000C3 RID: 195
+		OEM_7,
+		// Token: 0x040000C4 RID: 196
+		OEM_8,
+		// Token: 0x040000C5 RID: 197
+		OEM_102 = 226,
+		// Token: 0x040000C6 RID: 198
+		PROCESSKEY = 229,
+		// Token: 0x040000C7 RID: 199
+		PACKET = 231,
+		// Token: 0x040000C8 RID: 200
+		ATTN = 246,
+		// Token: 0x040000C9 RID: 201
+		CRSEL,
+		// Token: 0x040000CA RID: 202
+		EXSEL,
+		// Token: 0x040000CB RID: 203
+		EREOF,
+		// Token: 0x040000CC RID: 204
+		PLAY,
+		// Token: 0x040000CD RID: 205
+		ZOOM,
+		// Token: 0x040000CE RID: 206
+		NONAME,
+		// Token: 0x040000CF RID: 207
+		PA1,
+		// Token: 0x040000D0 RID: 208
+		OEM_CLEAR
+	}
+}
