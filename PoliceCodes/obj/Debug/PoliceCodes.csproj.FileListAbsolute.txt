@@ -1,0 +1,8 @@
+C:\Users\tomas\Documents\GitHub\fivem-policecodes-overlay\PoliceCodes\bin\Debug\PoliceCodes.exe
+C:\Users\tomas\Documents\GitHub\fivem-policecodes-overlay\PoliceCodes\bin\Debug\PoliceCodes.pdb
+C:\Users\tomas\Documents\GitHub\fivem-policecodes-overlay\PoliceCodes\obj\Debug\PoliceCodes.csproj.AssemblyReference.cache
+C:\Users\tomas\Documents\GitHub\fivem-policecodes-overlay\PoliceCodes\obj\Debug\PoliceCodes.Form2.resources
+C:\Users\tomas\Documents\GitHub\fivem-policecodes-overlay\PoliceCodes\obj\Debug\PoliceCodes.csproj.GenerateResource.cache
+C:\Users\tomas\Documents\GitHub\fivem-policecodes-overlay\PoliceCodes\obj\Debug\PoliceCodes.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Documents\GitHub\fivem-policecodes-overlay\PoliceCodes\obj\Debug\PoliceCodes.exe
+C:\Users\tomas\Documents\GitHub\fivem-policecodes-overlay\PoliceCodes\obj\Debug\PoliceCodes.pdb

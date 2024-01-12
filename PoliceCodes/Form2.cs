@@ -21,7 +21,22 @@ namespace PoliceCodes
 
 
             List<Label> labels = new List<Label>();
-            Font LargeFont = new Font("Segoe UI", 11, FontStyle.Bold);
+
+            int fontSize = 0;
+
+
+            // Font-size
+            foreach (string line in System.IO.File.ReadLines("./settings.txt"))
+            {
+                if (line.Contains(":") && line.Contains("font-size"))
+                {
+                    string[] parms = line.Split(':');
+                    fontSize = int.Parse(parms[1]);
+                }
+            }
+
+            Font LargeFont = new Font("Segoe UI", fontSize, FontStyle.Bold);
+            Font LargeFont2 = new Font("Segoe UI", fontSize - 1, FontStyle.Bold);
 
             int counter = 0;
             // Read the file and display it line by line.  
@@ -29,17 +44,22 @@ namespace PoliceCodes
             {
                 Label namelabel = new Label();
 
-                if (counter % 2 == 0)
-                    namelabel.ForeColor = Color.Cyan;
-                else
-                    namelabel.ForeColor = Color.LightGreen;
-
+                namelabel.ForeColor = Color.Black;
                 namelabel.Location = new Point(3, 20 + (counter * 18));
                 namelabel.Name = line;
                 namelabel.Text = line;
                 namelabel.AutoSize = true;
                 namelabel.Font = LargeFont;
                 labels.Add(namelabel);
+
+                namelabel.ForeColor = Color.White;
+                namelabel.Location = new Point(3, 20 + (counter * 18));
+                namelabel.Name = line;
+                namelabel.Text = line;
+                namelabel.AutoSize = true;
+                namelabel.Font = LargeFont2;
+                labels.Add(namelabel);
+
 
                 counter++;
             }

@@ -1,0 +1,53 @@
+10-0 Vizualní kontakt ztracen
+10-1  Změnte Frekvenci 
+10-3 Ticho na vysílačce
+10-4 Ano, rozumím 
+10-5 Přestávka 
+10-6 Zaneprázdněn 
+10-7 Mimo službu 
+10-8Ve službě 
+10-9 Opakujte hlášení 
+10-10 Napadení 
+10-11 Traffic Stop 
+10-12 Samostatná hlídka 
+10-13 Hlášení střelby 
+10-14 Prodej drog
+10-15 Převoz osoby 
+10-16 Krádež vozidla 
+10-17Podezřelá osoba 
+10-20Moje lokace 
+10-22 Ignorujte příkaz
+10-23 Dorazil na místo 
+10-27Kontrola řidičáku 
+10-28 Kontrola SPZ
+10-29 Zkontrolujte osobu 
+10-30 Osoba je hledaná
+10-32 Je potřeba asistence 
+10-41 Zahájení patroly 
+10-42 Ukončení patroly 
+10-44 Úmrtí osoby
+10-50  Dopravní nehoda
+10-52  Je potřeba EMS
+10-60 Ozbrojen střel. zbraní 
+10-66 Nebezpečný řidič 
+10-68 Ozbrojená loupež 
+10-69 Loupež nemovitosti 
+10-70 Pěší útěk
+10-71 Dozor v oblasti 
+10-80 Ujíždění ve vozidle 
+10-90 Napomenutí osoby
+10-91 Vykrádáni parkovacích hodin 
+10-95 Osoba zajištěna
+10-96 Exploze
+10-97 Na cestě...
+10-98 Pokračuji v patrole 
+10-99 Policista v nouzi  
+
+Kód 1 Bez majáků bez sirén
+Kód 2 Majáky bez sirény 
+Kód 3 Majáky a hlasité sirény 
+Kód 4 Situace pod kontrolou 
+Kód 5 Felony stop 
+Kód 6 Zahájení vyšetřování 
+Kód 11 Je potřeba SWAT
+Kód 12 Falešný poplach 

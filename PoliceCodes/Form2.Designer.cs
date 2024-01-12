@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // timer1
@@ -44,10 +45,21 @@
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(2, 6);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(173, 19);
+            this.label1.Size = new System.Drawing.Size(128, 19);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Discord: PoruTo#4271";
+            this.label1.Text = "Discord: porutok";
             this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.ForeColor = System.Drawing.Color.Cyan;
+            this.label2.Location = new System.Drawing.Point(136, 6);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(127, 19);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "www.dodocz.net";
             // 
             // Form2
             // 
@@ -55,6 +67,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(616, 550);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form2";
@@ -70,5 +83,6 @@
 
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
